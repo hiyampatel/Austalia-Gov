@@ -1,0 +1,17 @@
+uuid: 85cf7a14-ed4f-4340-aa93-979e8b6b5224
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: News
+type: news
+description: 'Use News for adding news content.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
