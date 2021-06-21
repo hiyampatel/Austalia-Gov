@@ -1,0 +1,14 @@
+uuid: fc08a681-0a9e-40f6-8d36-d84c415ff871
+langcode: en
+status: true
+dependencies: {  }
+id: news_creator
+label: 'News Creator'
+weight: -7
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create news content'
+  - 'delete own news content'
+  - 'edit own news content'
