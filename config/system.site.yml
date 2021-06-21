@@ -1,6 +1,6 @@
 uuid: 7e4ef851-f8c9-430c-bb93-dd34704e1d47
 name: Drupal
-mail: ''
+mail: hiya.patel@innoraft.com
 slogan: ''
 page:
   403: ''
@@ -12,3 +12,4 @@ langcode: en
 default_langcode: en
 _core:
   default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: ''
