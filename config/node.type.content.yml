@@ -1,0 +1,17 @@
+uuid: 8367d32f-c02c-44de-9ef0-ddb6dbb887a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Content
+type: content
+description: 'Use Content for adding new content. '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

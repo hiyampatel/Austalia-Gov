@@ -1,0 +1,14 @@
+uuid: 7800e125-e53e-4cda-9862-7877cc012786
+langcode: en
+status: true
+dependencies: {  }
+id: event_creator
+label: 'Event Creator'
+weight: -8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create events content'
+  - 'delete own events content'
+  - 'edit own events content'

@@ -1,0 +1,14 @@
+uuid: 2ccd5086-6925-4013-85be-eeb3df6f49c5
+langcode: en
+status: true
+dependencies: {  }
+id: content_creator
+label: 'Content Creator'
+weight: -6
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create content content'
+  - 'delete own content content'
+  - 'edit own content content'
