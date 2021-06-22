@@ -1,0 +1,8 @@
+uuid: 5dafe657-5baa-423d-8a78-39f9f98e8131
+langcode: en
+status: true
+dependencies: {  }
+id: information-and-services-menu
+label: 'Information and Services menu'
+description: 'It is displayed on Information and services page.'
+locked: false

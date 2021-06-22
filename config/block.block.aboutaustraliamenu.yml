@@ -1,0 +1,29 @@
+uuid: 45e92c92-bb72-455d-a7a3-b6e64070770d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.about-australia-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: aboutaustraliamenu
+theme: bartik
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'system_menu_block:about-australia-menu'
+settings:
+  id: 'system_menu_block:about-australia-menu'
+  label: 'Popular Links'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /about-australia
+    negate: false

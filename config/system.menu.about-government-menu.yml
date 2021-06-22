@@ -1,0 +1,8 @@
+uuid: 1e50371b-6c71-4813-9619-ca24b46c0dcf
+langcode: en
+status: true
+dependencies: {  }
+id: about-government-menu
+label: 'About Government menu'
+description: 'It is displayed on About government page.'
+locked: false
