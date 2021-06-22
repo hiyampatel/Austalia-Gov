@@ -1,0 +1,29 @@
+uuid: 7682e9a6-1b57-4f9f-a19b-fb439ea76796
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.about-government-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: aboutgovernmentmenu
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'system_menu_block:about-government-menu'
+settings:
+  id: 'system_menu_block:about-government-menu'
+  label: 'Popular Links'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /about-government
+    negate: false

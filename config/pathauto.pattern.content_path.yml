@@ -1,0 +1,26 @@
+uuid: cc3b435b-4e7e-466f-8832-f5592dcbaed7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: content_path
+label: 'Content path'
+type: 'canonical_entities:node'
+pattern: '/[node:field_parent]/[node:title]'
+selection_criteria:
+  cb5b9d19-8220-44d8-b099-39137aee180b:
+    id: node_type
+    bundles:
+      article: article
+      content: content
+      events: events
+      news: news
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: cb5b9d19-8220-44d8-b099-39137aee180b
+selection_logic: and
+weight: -5
+relationships: {  }

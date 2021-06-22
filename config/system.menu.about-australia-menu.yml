@@ -1,0 +1,8 @@
+uuid: 622fde40-2025-4688-ba1c-d60f156a270d
+langcode: en
+status: true
+dependencies: {  }
+id: about-australia-menu
+label: 'About Australia menu'
+description: 'It is displayed on About Australia page.'
+locked: false
